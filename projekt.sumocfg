@@ -1,0 +1,16 @@
+<configuration>
+    <input>
+        <net-file value="network.net.xml"/>
+        <route-files value="routes.rou.xml"/>
+<additional-files value="additional.add.xml"/>
+    </input>
+<output>
+    <summary-output value="summary.xml"/>
+    <tripinfo-output value="tripinfo.xml"/>
+    <emission-output value="emissions.xml"/>
+</output>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+</configuration>
