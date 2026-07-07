@@ -13,7 +13,7 @@ class BaselineSimulation:
         traci.start([
             "sumo",
             "-c",
-            "projekt.sumocfg"
+            "project.sumocfg"
         ])
 
         while traci.simulation.getMinExpectedNumber() > 0:
