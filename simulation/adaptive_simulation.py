@@ -16,7 +16,7 @@ class AdaptiveSimulation:
         traci.start([
             "sumo",
             "-c",
-            "projekt.sumocfg"
+            "project.sumocfg"
         ])
 
         # Create adaptive controller
