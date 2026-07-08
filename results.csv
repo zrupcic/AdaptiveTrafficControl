@@ -1,0 +1,5 @@
+Metric,Baseline,Adaptive,Improvement (%)
+Throughput,1200,1200,0.0
+Average Queue,5.76,5.57,3.22
+Maximum Queue,22,17,22.73
+Average Waiting,85.65,81.11,5.29
