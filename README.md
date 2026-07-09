@@ -7,6 +7,15 @@ A Python-based adaptive traffic signal controller developed using **SUMO (Simula
 
 This project was developed as part of the **Master of Science in Business Analytics (MSBA) Capstone Project**.
 
+| Category | Value |
+|----------|-------|
+| Language | Python |
+| Simulation | SUMO |
+| Interface | TraCI |
+| Network | OpenStreetMap |
+| Project | MSBA Capstone |
+| License | MIT |
+
 ---
 
 # Project Overview
@@ -78,7 +87,7 @@ README.md
 
 # System Architecture
 
-*(Architecture diagram to be inserted here.)*
+![System Architecture](docs/images/architecture.png)
 
 ---
 
@@ -120,6 +129,10 @@ python simulation/experiment_runner.py
 
 ---
 
+# SUMO Simulation
+
+![SUMO Simulation](docs/images/simulation.png)
+
 # Results
 
 The adaptive controller was evaluated against a traditional fixed-time controller.
@@ -135,7 +148,17 @@ The adaptive controller was evaluated against a traditional fixed-time controlle
 
 # Example Output
 
-*(Graphs to be inserted here.)*
+## Average Queue
+
+![Average Queue](results/average_queue.png)
+
+## Maximum Queue
+
+![Maximum Queue](results/maximum_queue.png)
+
+## Average Waiting
+
+![Average Waiting](results/average_waiting.png)
 
 ---
 
