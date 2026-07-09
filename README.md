@@ -1,7 +1,7 @@
-# AdaptiveTrafficControl
-MSBA Capstone project, Quantic School of Business and Technology
-
 # 🚦 Adaptive Traffic Control using SUMO
+
+MSBA Capstone Project  
+Quantic School of Business and Technology
 
 A Python-based adaptive traffic signal controller developed using **SUMO (Simulation of Urban MObility)** and **TraCI** to evaluate whether real-time queue-based traffic signal control can improve intersection performance compared with traditional fixed-time traffic lights.
 
@@ -26,6 +26,18 @@ This project proposes an adaptive traffic signal controller that continuously mo
 
 The controller is evaluated against a traditional fixed-time controller using microscopic traffic simulation.
 
+## Key Achievements
+
+✔ Adaptive queue-based traffic signal controller
+
+✔ 5.29% reduction in average waiting time
+
+✔ 22.73% reduction in maximum queue length
+
+✔ Automatic experiment framework
+
+✔ CSV export and graph generation
+
 ---
 
 # Features
@@ -49,6 +61,8 @@ The controller is evaluated against a traditional fixed-time controller using mi
 - TraCI
 - OpenStreetMap
 - Matplotlib
+- NumPy
+- Pandas
 
 ---
 
@@ -144,13 +158,11 @@ The adaptive controller was evaluated against a traditional fixed-time controlle
 | Maximum Queue | 22 | 17 | 22.73% |
 | Average Waiting | 85.65 s | 81.11 s | 5.29% |
 
+The adaptive controller reduced average waiting time and queue lengths while maintaining identical throughput.
+
 ---
 
 # Example Output
-
-## Average Queue
-
-![Average Queue](results/average_queue.png)
 
 ## Maximum Queue
 
@@ -181,6 +193,8 @@ Potential extensions include:
 **Zdenko Rupčić**
 
 Project Lead / Technical Feasibility Lead
+
+LinkedIn: https://www.linkedin.com/in/zdenko-rupcic/
 
 **Jessy Fong**
 
