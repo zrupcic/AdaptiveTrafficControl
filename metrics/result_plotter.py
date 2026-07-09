@@ -53,21 +53,21 @@ class ResultPlotter:
         )
 
         self.plot_metric(
-            "Average Queue",
+            "Average Queue (vehicles)",
             baseline.average_queue,
             adaptive.average_queue,
             "average_queue.png"
         )
 
         self.plot_metric(
-            "Maximum Queue",
+            "Maximum Queue (vehicles)",
             baseline.maximum_queue,
             adaptive.maximum_queue,
             "maximum_queue.png"
         )
 
         self.plot_metric(
-            "Average Waiting Time",
+            "Average Waiting Time (s)",
             baseline.average_waiting,
             adaptive.average_waiting,
             "average_waiting.png"
