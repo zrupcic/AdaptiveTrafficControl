@@ -1,5 +1,17 @@
 # 🚦 Adaptive Traffic Control using SUMO
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+
+![SUMO](https://img.shields.io/badge/SUMO-Traffic%20Simulation-orange)
+
+![TraCI](https://img.shields.io/badge/TraCI-API-lightgrey)
+
+![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-Road%20Network-green)
+
+![License](https://img.shields.io/badge/License-MIT-brightgreen)
+
+![MSBA](https://img.shields.io/badge/MSBA-Capstone-purple)
+
 MSBA Capstone Project  
 Quantic School of Business and Technology
 
